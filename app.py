@@ -33,7 +33,7 @@ heart_disease_model_dt = pickle.load(open('/mount/src/heart_disease/models/Decis
 heart_disease_model_xgb = pickle.load(open('/mount/src/heart_disease/models/XGBoost.pkl', 'rb'))
 
 
-image = Image.open('/mount/src/heart_disease/Heart_Disease.jpeg')
+image = Image.open('/mount/src/heart_disease/heart.jpg')
 
 # sidebar for navigation
 with st.sidebar:
